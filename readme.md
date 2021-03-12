@@ -22,3 +22,9 @@ Open aresmush/plugins/profile/custom_char_fields.rb and modify the get_fields_fo
             return {hints: "You are not permitted to view this character's secrets."}
         end
     end
+
+When finished, from the MUSH, type:
+    load profile
+    website/deploy
+
+Once the website has redeployed, the tab should appear on the profile.
